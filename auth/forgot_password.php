@@ -41,12 +41,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $mail->isSMTP();
                 $mail->Host = 'smtp.gmail.com';
                 $mail->SMTPAuth = true;
-                $mail->Username = 'maharjannehaa@gmail.com';
-                $mail->Password = 'xcnbswhhkvejadut';
+                $mail->Username = 'yourgmail@gmail.com';
+                $mail->Password = 'yourpassword';
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port = 587;
 
-                $mail->setFrom('maharjannehaa@gmail.com', 'PregPal');
+                $mail->setFrom('yourgmail.com', 'PregPal');
                 $mail->addAddress($email, $username);
                 $mail->isHTML(true);
                 $mail->Subject = 'PregPal Password Reset OTP';
