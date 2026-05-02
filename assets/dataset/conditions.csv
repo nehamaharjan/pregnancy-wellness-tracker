@@ -1,0 +1,43 @@
+condition_id,condition_name,severity,advice
+1,Normal pregnancy,Normal,Routine pregnancy; attend checkups and maintain healthy lifestyle.
+2,Preeclampsia,Urgent,High blood pressure and organ stress; seek immediate medical care.
+3,Gestational diabetes,Monitor,High blood sugar during pregnancy; monitor diet and glucose.
+4,Hyperemesis gravidarum,Risky,Severe vomiting causing dehydration; see doctor urgently.
+5,Iron-deficiency anemia,Monitor,Low iron; follow diet or supplements.
+6,Urinary tract infection (UTI),Monitor,Infection in urinary tract; see doctor for antibiotics.
+7,Preterm labor,Urgent,Labor before term; contact hospital immediately.
+8,Placenta previa,Urgent,Placenta covers cervix; painless bleeding; urgent evaluation.
+9,Threatened miscarriage,Risky,Bleeding or cramping early in pregnancy; seek medical advice.
+10,Gestational hypertension,Monitor,High blood pressure; monitor and follow doctor instructions.
+11,Deep vein thrombosis (DVT),Urgent,Blood clot in legs; swelling/pain; seek urgent care.
+12,Pulmonary embolism (PE),Urgent,Blood clot in lungs; sudden shortness of breath; emergency care.
+13,Cholestasis of pregnancy,Monitor,Liver disorder causing itching; follow doctor advice.
+14,Placental abruption,Urgent,Placenta separates early; severe pain/bleeding; emergency.
+15,Ectopic pregnancy,Urgent,Fertilized egg outside uterus; severe pain/bleeding; emergency.
+16,Gestational trophoblastic disease,Risky,Rare abnormal pregnancy tissue growth; requires medical treatment.
+17,Intrahepatic cholestasis of pregnancy,Monitor,Liver condition causing itching; monitor with doctor.
+18,Pregnancy-induced hypertension,Monitor,High blood pressure; monitor symptoms and follow doctor advice.
+19,Anemia (non-iron),Monitor,Low blood count; follow doctor recommendations.
+20,Urinary incontinence,Monitor,Involuntary urine leakage; pelvic exercises recommended.
+21,Varicose veins,Normal,Swollen veins; elevate legs and stay active.
+22,Gestational hypothyroidism,Monitor,Low thyroid hormone; take prescribed medication.
+23,Gestational hyperthyroidism,Monitor,High thyroid hormone; monitor with doctor.
+24,Urinary retention,Monitor,Difficulty urinating; consult doctor.
+25,Round ligament pain,Normal,Stretching ligament pain; normal in pregnancy.
+26,Symphysis pubis dysfunction (SPD),Monitor,Pelvic joint pain; use support and gentle exercise.
+27,Polyhydramnios,Monitor,Excess amniotic fluid; monitor with doctor.
+28,Oligohydramnios,Monitor,Low amniotic fluid; monitor fetal growth.
+29,Miscarriage,Urgent,Loss of pregnancy; seek medical care.
+30,Eclampsia,Urgent,Seizures in pregnancy due to high blood pressure; emergency.
+31,HELLP syndrome,Urgent,Severe liver and blood disorder; emergency care.
+32,Hypercoagulable state,Monitor,Increased risk of blood clots; follow doctor advice.
+33,Obstetric cholestasis,Monitor,Liver condition causing itching; monitor and follow doctor.
+34,Maternal infection,Monitor,Any infection during pregnancy; follow treatment plan.
+35,Peripartum cardiomyopathy,Urgent,Heart weakness near delivery; emergency care.
+36,Incompetent cervix,Risky,Cervix opens too early; medical intervention required.
+37,Polyhydramnios with gestational diabetes,Monitor,Excess fluid due to high blood sugar; monitor.
+38,Preterm premature rupture of membranes (PPROM),Urgent,Water breaks early; hospital care required.
+39,Placental insufficiency,Monitor,Poor blood flow to placenta; monitor fetal growth.
+,,,
+,,,
+,,,

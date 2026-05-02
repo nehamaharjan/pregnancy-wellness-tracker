@@ -1,0 +1,72 @@
+symptom_id,symptom_name,description
+1,Nausea,Feeling sick in the stomach
+2,Vomiting,Throwing up
+3,Fatigue,Feeling very tired
+4,Headache,Pain in the head
+5,Dizziness,Feeling lightheaded
+6,Back pain,Pain in the lower back
+7,Swollen feet,Feet feel puffy or swollen
+8,Shortness of breath,Hard to breathe normally
+9,Constipation,Trouble passing stool
+10,Heartburn,Burning feeling in the chest
+11,Mood swings,"Feeling happy one moment, sad the next"
+12,Insomnia,Trouble sleeping
+13,Loss of appetite,Not wanting to eat
+14,Rapid heartbeat,Heart beats fast
+15,Abdominal cramps,Pain or tightening in the stomach
+16,Frequent urination,Needing to pee often
+17,Vaginal bleeding,Spotting or bleeding from vagina
+18,Leg cramps,Sudden pain in the legs
+19,Swollen hands,Hands feel puffy
+20,Blurred vision,Trouble seeing clearly
+21,Fever,High body temperature
+22,Chills,Feeling very cold
+23,Runny nose,Nose keeps dripping
+24,Sore throat,Pain or irritation in throat
+25,Cough,Need to cough often
+26,Body aches,Pain all over the body
+27,Weakness,Feeling physically weak
+28,Sneezing,Sudden air from nose
+29,Stomach bloating,Stomach feels full or tight
+30,Heart palpitations,Feeling heart beating irregularly
+31,Numbness,Loss of feeling in part of the body
+32,Tingling,Pins-and-needles feeling
+33,Swollen belly,Belly feels puffy
+34,Hot flashes,Sudden warmth all over body
+35,Night sweats,Sweating while sleeping
+36,Itchy skin,Skin feels itchy
+37,Rash,Red or bumpy skin
+38,Hair loss,Losing hair more than usual
+39,Dry skin,Skin feels rough or flaky
+40,Toothache,Pain in teeth
+41,Gum bleeding,Bleeding from gums
+42,Nosebleeds,Blood coming from nose
+43,Swollen eyes,Eyes look puffy
+44,Watery eyes,Eyes produce too many tears
+45,Earache,Pain in the ear
+46,Ringing in ears,Buzzing sound in ear
+47,Nausea when standing,Feeling sick after standing up
+48,Cravings,Wanting specific foods
+49,Heart flutter,Heart feels like it skips a beat
+50,Tired eyes,Eyes feel heavy or strained
+51,Neck pain,Pain in neck muscles
+52,Shoulder pain,Pain in shoulders
+53,Hip pain,Pain in hips
+54,Knee pain,Pain in knees
+55,Foot pain,Pain in feet
+56,Swollen fingers,Fingers feel puffy
+57,Back stiffness,Hard to bend or move back
+58,Muscle cramps,Sudden pain in muscles
+59,Bruises,Marks from bumps or minor injury
+60,Gas,Feeling bloated from trapped air
+61,Burping,Releasing air from stomach
+62,Indigestion,Stomach discomfort after eating
+63,Acid reflux,Stomach acid comes up into throat
+64,Frequent headaches,Head hurts many times
+65,Swollen ankles,Ankles look puffy
+66,Varicose veins,Swollen veins in legs
+67,Leg heaviness,Legs feel heavy or tired
+68,Cold hands,Hands feel cold easily
+69,Cold feet,Feet feel cold easily
+70,Trouble concentrating,Hard to focus or remember things
+71,Normal,Everything is normal

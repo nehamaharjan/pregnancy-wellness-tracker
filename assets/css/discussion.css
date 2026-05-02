@@ -1,0 +1,269 @@
+/* 🌸 General Page Setup */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f6f7fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🧭 Navbar / Header */
+h2 {
+  text-align: center;
+  color: #3a3a3a;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(236, 147, 251);
+  transition: 0.3s;
+}
+
+a:hover {
+  color: rgb(124, 49, 116);
+}
+/* 🌐 Discussion Board Header */
+.discussion-header {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discussion-header h2 {
+  margin: 0;
+      text-align: center;
+    color: #d44c2e;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* "New Post" button moved below and aligned right */
+.discussion-header a {
+  align-self: flex-start;
+  margin-top: 20px;
+  background-color: rgb(241, 189, 250);
+  color: #f83939;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.discussion-header a:hover {
+  background-color:  rgb(241, 183, 251);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+hr {
+  width: 80%;
+  max-width: 800px;
+  margin: 15px auto;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+@media (max-width: 768px) {
+  .discussion-header {
+    width: 90%;
+    margin: 25px auto 5px;
+  }
+
+  .discussion-header h2 {
+    font-size: 22px;
+  }
+
+  .discussion-header a {
+    align-self: center;
+    margin-top: 12px;
+    padding: 6px 14px;
+    font-size: 14px;
+  }
+
+  hr {
+    width: 90%;
+  }
+}
+
+/* 🧱 Container Layout */
+.post, form {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+}
+
+/* 🖊️ Post Section */
+.delete-btn-form {
+    display: inline-block; /* forces it to sit inline with like button */
+    margin-left: 8px;      /* small gap from like button */
+}
+
+.post {
+  border-left: 5px solid rgb(241, 189, 250);
+  transition: 0.3s;
+}
+
+.post:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+  color: #2c2c2c;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.post p {
+  line-height: 1.6;
+}
+
+.post img {
+  border-radius: 8px;
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+.post a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+/* 🏷️ Tags */
+.post b {
+  color: #555;
+}
+
+.post .tags {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #6a6a6a;
+}
+
+/* 🧾 Create Post Form */
+form label {
+  display: block;
+  font-weight: 500;
+  margin-top: 15px;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="url"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-top: 5px;
+  transition: 0.2s;
+}
+
+form input[type="text"]:focus,
+form input[type="url"]:focus,
+form textarea:focus {
+  outline: none;
+  border-color: rgb(241, 183, 251);
+  box-shadow: 0 0 4px rgba(108, 99, 255, 0.3);
+}
+
+form input[type="file"] {
+  margin-top: 8px;
+}
+ .comment-form-container {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        margin-top: 10px;
+    }
+
+    .comment-form-container form {
+        background: #f4f4f4;
+        padding: 50px;
+        border-radius: 8px;
+    }
+button {
+  margin-top: 20px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(241, 189, 250);
+   color: #f83939;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: rgb(241, 183, 251);
+}
+.comments-section {
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.comment {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.comment img {
+    max-width: 100%;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.comments-section textarea {
+    width: 100%;
+    
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.comments-section input[type="file"],
+.comments-section input[type="url"] {
+    margin-bottom: 5px;
+}
+
+.comments-section button {
+    background: rgb(241, 189, 250);
+    color: #fff;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.comments-section button:hover {
+    background: rgb(241, 183, 251);
+}
+
+
+
+
+/* 🌐 Responsive */
+@media (max-width: 768px) {
+  .post, form {
+    width: 95%;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+}
